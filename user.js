@@ -1,9 +1,9 @@
-const index = 0;
+let index = 0;
 
 function User (firstname, lastname) {
     this.firstName = firstname;
     this.lastName = lastname;
-    this.id = index++;
+    this.id = index++
 };
      
 let add =  save = () => {
@@ -32,3 +32,4 @@ let add =  save = () => {
             } 
               else  alert('Please enter name/username');
      };
+
