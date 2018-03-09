@@ -4,7 +4,7 @@ function User (firstname, lastname) {
     this.lastName = lastname;
 };
      
-save = () => {
+let save = () => {
         const entry = document.createElement('li');
         const firstname = document.getElementById('firstname').value;
         const lastname = document.getElementById('lastname').value;
